@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>자바스크립트</h1>
+
+	<h2>함수(펑션)</h2>
+</body>
+
+	<script type="text/javascript">
+	/*
+		var name = "global"
+		
+		//함수정의
+		function checkscope(){
+			var name = "local";
+			
+			console.log(name);
+		}
+		
+		checkscope();		//출력 local
+		console.log(name);	//출력 global
+
+		*/
+		
+		//실험2
+		var name = "global";
+		
+		//내부에서만 활성화되는 값
+		function checkScope(){
+			name = "local";
+			name2 = "로컬";
+		}
+	
+		checkScope();
+		console.log(name);
+		console.log(name2);
+		
+		//var 해당영역에만 영향을줌
+		//var이 없으면 전체영역에서 영향을줌
+		
+		//전역변수는 제일처음 외각에 먼저 짜주고 그 후에 지역변수조정
+		
+	</script>
+</html>
