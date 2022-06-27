@@ -10,7 +10,7 @@
 	<h2>계산기</h2>
 	
 	<div>
-      <input id="text type="text">
+      <input id="text" type="text">
     </div>
     <div>
       <button id="9" type="button" value="text">9</button>
@@ -32,12 +32,47 @@
     </div>
      <div>
       <button id="0" type="button" value="text">0</button>
-      <button id="delet" type="button" value="text">c</button>
+      <button id="C" type="button" value="text">c</button>
       <button id="equal" type="button" value="text">=</button>
       <button id="pulse" type="button" value="text">+</button>
     </div>
 </body>
 
+<script type="text/javascript">
 
+	window.onload = function(){
+		var texts = document.getElementById("text");
+		
+		var button = document.getElementName("button");
+		console.log(button);
+		
+		var button1 = document.getElementById("1");
+		var button2 = document.getElementById("2");
+		var button3 = document.getElementById("3");
+		var button4 = document.getElementById("4");
+		
+		var button5 = document.getElementById("5");
+		var button6 = document.getElementById("6");
+		var button7 = document.getElementById("7");
+		var button8 = document.getElementById("8");
+		
+		var button9 = document.getElementById("9");
+		var button0 = document.getElementById("0");
+		var buttonP = document.getElementById("pulse");
+		var buttonM = document.getElementById("minus");
+		
+		var buttonE = document.getElementById("equal");
+		var buttonD = document.getElementById("divided");
+		var buttonC = document.getElementById("C");
+		var buttonT = document.getElementById("times");
+		
+		var str = "";
+		
+		btn.onclick = function(){
+			console.log(this.id);
+		}
+	};
+	
+</script>
 
 </html>
